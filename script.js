@@ -1,5 +1,5 @@
 /* ============================================================
-   Алексей Белов — Senior PM · Portfolio
+   Алексей Белов - Senior PM · Portfolio
    ============================================================ */
 
 (function(){
@@ -10,11 +10,11 @@
   if(yr) yr.textContent = new Date().getFullYear();
 
   // ============================================================
-  // I18N — RU / EN
+  // I18N - RU / EN
   // ============================================================
   const I18N = {
     ru: {
-      meta_title: "Алексей Белов — Senior Project Manager · AI-Driven Delivery",
+      meta_title: "Алексей Белов - Senior Project Manager · AI-Driven Delivery",
       meta_desc: "Senior Project Manager в IT. AI-Driven Delivery. Кейсы: Rightway, Rostic's, ВТБ, Открытие, QIWI, Совкомбанк, DMG MORI.",
       brand_role: "Senior Project Manager",
 
@@ -23,8 +23,8 @@
       btn_discuss: "Обсудить проект",
 
       hero_eyebrow: '<span>●</span> Senior Project Manager · AI-Driven Delivery',
-      hero_h1: "Проекты срываются<br>не из‑за людей —<br><em>из‑за процессов.</em><br>Я их перестраиваю.",
-      hero_sub: "Внедряю AI в команды разработки.<br>Меньше рутины — больше доставки.",
+      hero_h1: "Проекты срываются<br>не из‑за людей, а<br><em>из‑за процессов.</em><br>Я их перестраиваю.",
+      hero_sub: "Внедряю AI в команды разработки.<br>Меньше рутины - больше доставки.",
       hero_cta_cases: "Смотреть кейсы →",
       hero_cta_discuss: "Обсудить проект",
       hero_stat_1: "лет в IT‑управлении",
@@ -33,12 +33,12 @@
       hero_stat_4: "Time‑to‑Market",
       hero_scroll: "прокрутите",
 
-      about_tag: "01 — Обо мне",
+      about_tag: "01 - Обо мне",
       about_h2: "Кто я и чем помогу",
-      about_p1: "<strong>11 лет управляю IT‑проектами</strong> — от цифровизации производства <em>DMG MORI</em> до реализации компании‑единорога <em>Healthcare B2B SaaS</em> на международном рынке.",
-      about_p2: "Фокус — ускорение процесса Delivery без потери качества за счёт AI‑инструментов и настройки SDLC. Внедряю AI в реальные команды: тесты, документация, code review, аналитика. Не теория — конкретные цифры по каждому внедрению.",
+      about_p1: "<strong>11 лет управляю IT‑проектами</strong> - от цифровизации производства <em>DMG MORI</em> до реализации компании‑единорога <em>Healthcare B2B SaaS</em> на международном рынке.",
+      about_p2: "Фокус - ускорение процесса Delivery без потери качества за счёт AI‑инструментов и настройки SDLC. Внедряю AI в реальные команды: тесты, документация, code review, аналитика. Не теория - конкретные цифры по каждому внедрению.",
       about_p3: "Работал с крупными игроками: <em>Rightway, Rostic's, ВТБ, Открытие, Совкомбанк, QIWI</em>.",
-      about_p4: "Берусь за проекты с высокой неопределённостью. Когда непонятно, как дойти до финиша — это то, с чем могу помочь.",
+      about_p4: "Берусь за проекты с высокой неопределённостью. Когда непонятно, как дойти до финиша - это то, с чем могу помочь.",
       about_m1: "Time‑to‑Market после AI SDLC",
       about_m2: "размер QA‑команды после автоматизации",
       about_m3: "предсказуемость поставок (было 68%)",
@@ -48,25 +48,25 @@
       about_m7: "рост аккаунта SimbirSoft (до $2M/год)",
       tools_label: "Инструментарий",
 
-      approach_tag: "02 — Мой подход",
+      approach_tag: "02 - Мой подход",
       approach_h2: "Как я работаю",
       approach_lead: "Принципы, которые отличают мой подход от стандартного PM‑а с Jira и Excel.",
       approach_1_t: "AI вместо рутины",
       approach_1_d: "Автоматизирую то, что съедает время: генерация тестов, документация, конспекты встреч, code review.",
       approach_2_t: "Метрики, а не интуиция",
-      approach_2_d: "Lead Time, Cycle Time, CFD — с первых недель. Решения по данным. Предсказуемость: 68% → 92% за полгода.",
+      approach_2_d: "Lead Time, Cycle Time, CFD - с первых недель. Решения по данным. Предсказуемость: 68% → 92% за полгода.",
       approach_3_t: "Discovery перед разработкой",
       approach_3_d: "Не беру спринт без понимания «зачем». Discovery‑фаза сокращает change‑requests на 40%.",
       approach_4_t: "Один язык с бизнесом и инженерами",
-      approach_4_d: "PMP/PRINCE2 — для стратегии и governance. Углубление в технику — чтобы не терять доверие команды.",
-      approach_5_t: "Команда — не ресурс",
+      approach_4_d: "PMP/PRINCE2 - для стратегии и governance. Углубление в технику - чтобы не терять доверие команды.",
+      approach_5_t: "Команда - не ресурс",
       approach_5_d: "Регулярные 1‑on‑1, прозрачные треки развития. Текучесть ключевых специалистов: 18% → 8%.",
       approach_6_t: "Pre‑sale как часть работы",
       approach_6_d: "Оценка трудоёмкости, защита КП перед заказчиком. Расширение аккаунта до x10.",
 
-      cases_tag: "03 — Кейсы",
+      cases_tag: "03 - Кейсы",
       cases_h2: "Проекты и результаты",
-      cases_lead: "Каждый кликабелен — внутри полная карточка проекта.",
+      cases_lead: "Каждый кликабелен - внутри полная карточка проекта.",
 
       case_rightway_marker: "🏥 HealthCare · Mobile / Web · USA",
       case_rightway_name: "Rightway Healthcare",
@@ -90,35 +90,35 @@
       kpi_onbudget: "On‑budget",
       case_sovcom_marker: "🏦 Fintech · Portfolio",
       case_sovcom_name: "Портфель проектов Совкомбанк",
-      case_sovcom_one: "С одного лендинга — до портфеля из 10 проектов. Рост аккаунта в 10 раз.",
+      case_sovcom_one: "С одного лендинга - до портфеля из 10 проектов. Рост аккаунта в 10 раз.",
       kpi_account_growth: "рост аккаунта",
       kpi_per_year: "в год",
       kpi_ontime_onbudget: "On‑time, On‑budget",
       case_dmg_marker: "🏭 Manufacturing · Digitalization",
-      case_dmg_name: "DMG MORI — цифровизация производства",
+      case_dmg_name: "DMG MORI - цифровизация производства",
       case_dmg_one: "80+ станков в MES. Первое в России шпиндельное производство. 120+ человек.",
       kpi_downtime: "простой",
       kpi_savings: "сэкономленный бюджет",
 
-      reviews_tag: "04 — Отзывы",
+      reviews_tag: "04 - Отзывы",
       reviews_h2: "Что говорят заказчики",
       review_rightway_role: "CTO · [имя]",
-      review_placeholder: "«— отзыв будет добавлен —»",
+      review_placeholder: "«- отзыв будет добавлен -»",
       review_read: "Читать →",
       review_read_simbir: "Читать кейс на SimbirSoft →",
       review_read_media: "Читать в Ritm Magazine →",
       review_donate_role: "Product Owner",
       review_donate_text: "«Компания SimbirSoft по заказу платёжного сервиса QIWI разработала сервис QIWI Donate для перечисления денежной помощи без комиссии стрим‑платформе. Для нас это уже восьмой совместный проект с QIWI, и мы гордимся успешным сотрудничеством на протяжении более чем двух лет.»",
       review_qampus_role: "Александр · Product Manager, QIWI",
-      review_qampus_text: "«Мы сделали классный портал — портал для наших сотрудников, портал развития и обучения. Делали вместе с коллегами из SimbirSoft. Ребята очень классно нам помогли с реализацией, полностью взяв на себя разработку и запуск. Сделали быстро — за три месяца, и сейчас мы продолжаем его активно развивать. Очень довольны ребятами из SimbirSoft. Классно поработали и сделали реально качественный продукт.»",
+      review_qampus_text: "«Мы сделали классный портал - портал для наших сотрудников, портал развития и обучения. Делали вместе с коллегами из SimbirSoft. Ребята очень классно нам помогли с реализацией, полностью взяв на себя разработку и запуск. Сделали быстро - за три месяца, и сейчас мы продолжаем его активно развивать. Очень довольны ребятами из SimbirSoft. Классно поработали и сделали реально качественный продукт.»",
       review_dmg_role: "СМИ · Ritm Magazine",
-      review_dmg_text: "«Уникальное для России производство шпинделей запустил ульяновский станкостроительный завод концерна „ДМГ Мори“. Шпиндели — самая ответственная и важная часть фрезерного станка. Чтобы локализовать производство этих деталей, концерн инвестировал 600 тысяч евро, рассчитывая выпускать на ульяновском заводе не менее 600 единиц в год. Ранее поставки шпинделей осуществлялись из‑за рубежа, теперь же, чтобы соответствовать требованиям локализации, этот узел станков будет производиться в Ульяновске.»",
+      review_dmg_text: "«Уникальное для России производство шпинделей запустил ульяновский станкостроительный завод концерна „ДМГ Мори“. Шпиндели - самая ответственная и важная часть фрезерного станка. Чтобы локализовать производство этих деталей, концерн инвестировал 600 тысяч евро, рассчитывая выпускать на ульяновском заводе не менее 600 единиц в год. Ранее поставки шпинделей осуществлялись из‑за рубежа, теперь же, чтобы соответствовать требованиям локализации, этот узел станков будет производиться в Ульяновске.»",
       review_rostics_arch_role: "Chief Architect · Олег Шешин",
       review_rostics_pm_role: "Product Manager · Женя Фокина",
 
-      contacts_tag: "05 — Контакты",
+      contacts_tag: "05 - Контакты",
       contacts_h2: "Обсудим <em>ваш проект</em>",
-      contacts_lead: "Если у вас есть проект с высокой неопределённостью, команда, которой нужно ускориться, или вы хотите внедрить AI в процессы разработки — напишите.",
+      contacts_lead: "Если у вас есть проект с высокой неопределённостью, команда, которой нужно ускориться, или вы хотите внедрить AI в процессы разработки - напишите.",
       form_h3: "Оставить заявку",
       form_name_label: "Ваше имя",
       form_name_ph: "Как к вам обращаться",
@@ -150,8 +150,8 @@
       mod_stack: "Стек",
 
       mod_rightway_one: "Healthcare B2B SaaS‑платформа (единорог, $1.1B) в системе здравоохранения на рынке США.",
-      mod_rightway_ctx: "Rightway — американская HealthTech‑компания‑единорог с оценкой $1.1B, радикально меняющая то, как люди получают медицинскую помощь и покупают лекарства. В конце 2025 года Rightway заняла 42‑е место в рейтинге Deloitte Fast 500 самых быстрорастущих технологических компаний Северной Америки.",
-      mod_rightway_period: "Март 2022 — Декабрь 2025",
+      mod_rightway_ctx: "Rightway - американская HealthTech‑компания‑единорог с оценкой $1.1B, радикально меняющая то, как люди получают медицинскую помощь и покупают лекарства. В конце 2025 года Rightway заняла 42‑е место в рейтинге Deloitte Fast 500 самых быстрорастущих технологических компаний Северной Америки.",
+      mod_rightway_period: "Март 2022 - Декабрь 2025",
       mod_rightway_team: "50 человек · 7 стран: Back, Front Web (React), Front Mobile (RN), QA, SDET, DevOps",
       kpi_prd_speed: "скорость PRD",
       kpi_churn: "текучесть",
@@ -163,8 +163,8 @@
 
       mod_rostics_h2: "Новое мобильное приложение Rostic's",
       mod_rostics_one: "Разработка с нуля highload‑приложения в сфере Fast Food. ~1 300 ресторанов, 5M+ MAU.",
-      mod_rostics_ctx: "Разработка с нуля нового highload‑мобильного приложения Rostic's — Fast Food сеть с ежемесячной аудиторией более 5M человек, ~1 300 ресторанов.",
-      mod_rostics_period: "Июнь 2025 — н. в.",
+      mod_rostics_ctx: "Разработка с нуля нового highload‑мобильного приложения Rostic's - Fast Food сеть с ежемесячной аудиторией более 5M человек, ~1 300 ресторанов.",
+      mod_rostics_period: "Июнь 2025 - н. в.",
       mod_rostics_team: "15 человек: Back, iOS, Android, Analyst, QA, DevOps",
       kpi_release_pred: "предсказуемость релизов",
       kpi_feature_time: "время выпуска фич",
@@ -182,14 +182,14 @@
       kpi_on_budget_time: "в бюджете и сроках",
       kpi_incidents: "инцидентов",
       kpi_vtb_team: "человек в команде ВТБ",
-      mod_vtb_b1: "Закрыл <b>20+ проектов Data/BI</b> для банков Топ‑10. Качество, сроки и бюджет — <b>&gt;90%</b>.",
+      mod_vtb_b1: "Закрыл <b>20+ проектов Data/BI</b> для банков Топ‑10. Качество, сроки и бюджет - <b>&gt;90%</b>.",
       mod_vtb_b2: "Мигрировал хранилище ВТБ (DDS‑слой), 15 человек в команде. В бюджете и сроках.",
-      mod_vtb_b3: "Разработал стандарты ведения проектов — компания приняла их как корпоративные. <b>Инциденты −18%</b>.",
+      mod_vtb_b3: "Разработал стандарты ведения проектов - компания приняла их как корпоративные. <b>Инциденты −18%</b>.",
       mod_vtb_b4: "Рост портфеля проектов <b>+60%</b>.",
       mod_vtb_b5: "Pre‑sale: оценивал трудоёмкость, собирал КП, защищал проекты перед заказчиком.",
 
       mod_donate_one: "Финтех‑сервис для стримеров. 31% всех донатов на российском рынке. TPV 7 млрд ₽.",
-      mod_donate_ctx: "Специализированный финтех‑сервис от группы QIWI для стримеров и создателей контента. Позволяет авторам принимать пожертвования во время прямых трансляций на Twitch, YouTube и VK Play. Прямой конкурент DonationAlerts с глубокой интеграцией в экосистему QIWI — максимально быстрый и выгодный вывод средств.",
+      mod_donate_ctx: "Специализированный финтех‑сервис от группы QIWI для стримеров и создателей контента. Позволяет авторам принимать пожертвования во время прямых трансляций на Twitch, YouTube и VK Play. Прямой конкурент DonationAlerts с глубокой интеграцией в экосистему QIWI - максимально быстрый и выгодный вывод средств.",
       mod_donate_team: "10 человек: аналитики, дизайнеры, Front, Back, архитектор, DevOps",
       kpi_ru_share: "доля рынка РФ",
       mod_donate_b1: "Запустил с нуля сервис донатов: <b>MAU 1.2M, uptime 99.9%</b>. Микросервисы, Kubernetes.",
@@ -199,7 +199,7 @@
 
       mod_qampus_one: "Корпоративный LMS QIWI для 3 000+ сотрудников. Вышел в отдельный B2B‑продукт.",
       mod_qampus_link: "Лендинг Qampus ↗",
-      mod_qampus_ctx: "Корпоративный LMS и система управления знаниями для сотрудников QIWI. Построен на методологии непрерывного обучения 70/20/10: индивидуальные треки развития, hard/soft skills, онбординг, доступ к внутренней библиотеке. Изначально внутренний инструмент — вышел как отдельный B2B‑продукт со своей монетизацией.",
+      mod_qampus_ctx: "Корпоративный LMS и система управления знаниями для сотрудников QIWI. Построен на методологии непрерывного обучения 70/20/10: индивидуальные треки развития, hard/soft skills, онбординг, доступ к внутренней библиотеке. Изначально внутренний инструмент - вышел как отдельный B2B‑продукт со своей монетизацией.",
       mod_qampus_team: "12 человек: Analyst, Front, Back, SDET, QA, DevOps, Designer",
       kpi_dev_util: "утилизация разработчиков",
       mod_qampus_b1: "Проводил интервью с сотрудниками компании для выявления гипотез по улучшению продукта.",
@@ -207,7 +207,7 @@
       mod_qampus_b3: "Запустил систему планирования и трекинга аллокации ресурсов. Конфликты в команде минимизированы, <b>утилизация разработчиков +11%</b>.",
       mod_qampus_b4: "Управлял экономикой проекта (P&amp;L, маржинальность). Релизные планы On‑time / On‑budget.",
 
-      mod_sovcom_one: "С одного лендинга — до портфеля из 10 проектов. Рост аккаунта в 10 раз до $2M/год.",
+      mod_sovcom_one: "С одного лендинга - до портфеля из 10 проектов. Рост аккаунта в 10 раз до $2M/год.",
       mod_sovcom_ctx: "Заказчик пришёл с проектом по реализации одного лендингового сайта. Благодаря чёткой работе и налаживанию прозрачных процессов взаимодействия удалось забрать больше проектов и зарекомендовать компанию как надёжного партнёра.",
       mod_sovcom_team: "25 человек: Analyst, Front, Back, SDET, QA, DevOps, Designer",
       kpi_projects_in_portfolio: "проектов в портфеле",
@@ -223,12 +223,12 @@
       kpi_people_project: "человек в проекте",
       mod_dmg_b1: "Подключил <b>80+ станков</b> к MES, построил сквозной контур цифровизации.",
       mod_dmg_b2: "Запустил с нуля <b>первое в России шпиндельное производство</b>, бюджет €0.6M.",
-      mod_dmg_b3: "Перенимание опыта шпиндельного производства в Польше и Германии — лучшие практики.",
+      mod_dmg_b3: "Перенимание опыта шпиндельного производства в Польше и Германии - лучшие практики.",
       mod_dmg_b4: "OEE вырос <b>с 62% до 78%</b>, простой <b>−25%</b>."
     },
 
     en: {
-      meta_title: "Alexey Belov — Senior Project Manager · AI-Driven Delivery",
+      meta_title: "Alexey Belov - Senior Project Manager · AI-Driven Delivery",
       meta_desc: "Senior Project Manager in IT. AI-Driven Delivery. Cases: Rightway, Rostic's, VTB, Otkritie, QIWI, Sovcombank, DMG MORI.",
       brand_role: "Senior Project Manager",
 
@@ -237,8 +237,8 @@
       btn_discuss: "Start a project",
 
       hero_eyebrow: '<span>●</span> Senior Project Manager · AI-Driven Delivery',
-      hero_h1: "Projects fail<br>not because of people —<br><em>but because of processes.</em><br>I rebuild them.",
-      hero_sub: "I embed AI into delivery teams.<br>Less routine — more shipping.",
+      hero_h1: "Projects fail<br>not because of people -<br><em>but because of processes.</em><br>I rebuild them.",
+      hero_sub: "I embed AI into delivery teams.<br>Less routine - more shipping.",
       hero_cta_cases: "See cases →",
       hero_cta_discuss: "Start a project",
       hero_stat_1: "years in IT management",
@@ -247,12 +247,12 @@
       hero_stat_4: "Time-to-Market",
       hero_scroll: "scroll",
 
-      about_tag: "01 — About",
+      about_tag: "01 - About",
       about_h2: "Who I am and how I can help",
-      about_p1: "<strong>11 years managing IT projects</strong> — from digitalizing <em>DMG MORI</em> manufacturing to delivering a <em>Healthcare B2B SaaS</em> unicorn on the international market.",
-      about_p2: "Focus: accelerating Delivery without quality loss through AI tools and SDLC tuning. I embed AI into real teams: tests, documentation, code review, analytics. Not theory — concrete numbers for every rollout.",
+      about_p1: "<strong>11 years managing IT projects</strong> - from digitalizing <em>DMG MORI</em> manufacturing to delivering a <em>Healthcare B2B SaaS</em> unicorn on the international market.",
+      about_p2: "Focus: accelerating Delivery without quality loss through AI tools and SDLC tuning. I embed AI into real teams: tests, documentation, code review, analytics. Not theory - concrete numbers for every rollout.",
       about_p3: "Worked with major players: <em>Rightway, Rostic's, VTB, Otkritie, Sovcombank, QIWI</em>.",
-      about_p4: "I take on projects with high uncertainty. When it's unclear how to reach the finish line — that's where I can help.",
+      about_p4: "I take on projects with high uncertainty. When it's unclear how to reach the finish line - that's where I can help.",
       about_m1: "Time-to-Market after AI SDLC",
       about_m2: "QA team size after automation",
       about_m3: "delivery predictability (was 68%)",
@@ -262,13 +262,13 @@
       about_m7: "SimbirSoft account growth (to $2M/year)",
       tools_label: "Toolkit",
 
-      approach_tag: "02 — My approach",
+      approach_tag: "02 - My approach",
       approach_h2: "How I work",
       approach_lead: "Principles that set me apart from a standard PM with Jira and Excel.",
       approach_1_t: "AI instead of routine",
       approach_1_d: "I automate what eats time: test generation, documentation, meeting notes, code review.",
       approach_2_t: "Metrics, not intuition",
-      approach_2_d: "Lead Time, Cycle Time, CFD — from week one. Data-driven decisions. Predictability: 68% → 92% in six months.",
+      approach_2_d: "Lead Time, Cycle Time, CFD - from week one. Data-driven decisions. Predictability: 68% → 92% in six months.",
       approach_3_t: "Discovery before development",
       approach_3_d: "I don't start a sprint without understanding the \"why\". Discovery cuts change requests by 40%.",
       approach_4_t: "One language for business and engineers",
@@ -278,9 +278,9 @@
       approach_6_t: "Pre-sale as part of the job",
       approach_6_d: "Estimation, defending proposals in front of the client. Account expansion up to 10x.",
 
-      cases_tag: "03 — Cases",
+      cases_tag: "03 - Cases",
       cases_h2: "Projects and results",
-      cases_lead: "Each card is clickable — full project details inside.",
+      cases_lead: "Each card is clickable - full project details inside.",
 
       case_rightway_marker: "🏥 HealthCare · Mobile / Web · USA",
       case_rightway_name: "Rightway Healthcare",
@@ -299,7 +299,7 @@
       case_donate_one: "Donations service for streamers. 31% of the Russian market, TPV 7B RUB. Built from scratch.",
       kpi_tpv_val: "7B RUB",
       case_qampus_marker: "🎓 HR tools · LMS",
-      case_qampus_one: "Corporate LMS for 3,000+ QIWI employees — spun off as a separate B2B product.",
+      case_qampus_one: "Corporate LMS for 3,000+ QIWI employees - spun off as a separate B2B product.",
       kpi_ontime: "On-time",
       kpi_onbudget: "On-budget",
       case_sovcom_marker: "🏦 Fintech · Portfolio",
@@ -309,30 +309,30 @@
       kpi_per_year: "per year",
       kpi_ontime_onbudget: "On-time, On-budget",
       case_dmg_marker: "🏭 Manufacturing · Digitalization",
-      case_dmg_name: "DMG MORI — manufacturing digitalization",
+      case_dmg_name: "DMG MORI - manufacturing digitalization",
       case_dmg_one: "80+ machines in MES. Russia's first spindle production line. 120+ people.",
       kpi_downtime: "downtime",
       kpi_savings: "budget saved",
 
-      reviews_tag: "04 — Reviews",
+      reviews_tag: "04 - Reviews",
       reviews_h2: "What clients say",
       review_rightway_role: "CTO · [name]",
-      review_placeholder: "«— review to be added —»",
+      review_placeholder: "«- review to be added -»",
       review_read: "Read →",
       review_read_simbir: "Read the case on SimbirSoft →",
       review_read_media: "Read on Ritm Magazine →",
       review_donate_role: "Product Owner",
-      review_donate_text: "«SimbirSoft developed QIWI Donate for the QIWI payment service — a zero-commission donations service for streaming platforms. For us, this is already the eighth joint project with QIWI, and we take pride in a successful partnership of more than two years.»",
+      review_donate_text: "«SimbirSoft developed QIWI Donate for the QIWI payment service - a zero-commission donations service for streaming platforms. For us, this is already the eighth joint project with QIWI, and we take pride in a successful partnership of more than two years.»",
       review_qampus_role: "Alexander · Product Manager, QIWI",
-      review_qampus_text: "«We built a great portal — a portal for our employees, a portal for growth and learning. We did it together with colleagues from SimbirSoft. The team helped us brilliantly with the implementation, fully taking on development and launch. We shipped it fast — in three months — and we're still actively evolving it. Very happy with SimbirSoft. Great work and a genuinely quality product.»",
+      review_qampus_text: "«We built a great portal - a portal for our employees, a portal for growth and learning. We did it together with colleagues from SimbirSoft. The team helped us brilliantly with the implementation, fully taking on development and launch. We shipped it fast - in three months - and we're still actively evolving it. Very happy with SimbirSoft. Great work and a genuinely quality product.»",
       review_dmg_role: "Media · Ritm Magazine",
       review_dmg_text: "«The Ulyanovsk machine-tool plant of the DMG MORI Group has launched a spindle production line unique for Russia. Spindles are the most critical part of a milling machine. To localize production of these parts, the group invested 600,000 euros, aiming to produce at least 600 units per year at the Ulyanovsk plant. Previously, spindles were supplied from abroad; now, to meet localization requirements, this machine component will be produced in Ulyanovsk.»",
       review_rostics_arch_role: "Chief Architect · Oleg Sheshin",
       review_rostics_pm_role: "Product Manager · Zhenya Fokina",
 
-      contacts_tag: "05 — Contacts",
+      contacts_tag: "05 - Contacts",
       contacts_h2: "Let's discuss <em>your project</em>",
-      contacts_lead: "If you have a project with high uncertainty, a team that needs to move faster, or you want to embed AI into your delivery process — drop a line.",
+      contacts_lead: "If you have a project with high uncertainty, a team that needs to move faster, or you want to embed AI into your delivery process - drop a line.",
       form_h3: "Submit a request",
       form_name_label: "Your name",
       form_name_ph: "How should I address you",
@@ -364,8 +364,8 @@
       mod_stack: "Stack",
 
       mod_rightway_one: "Healthcare B2B SaaS platform (unicorn, $1.1B) in the US healthcare system.",
-      mod_rightway_ctx: "Rightway is a US HealthTech unicorn valued at $1.1B, radically changing how people receive medical care and buy medication. In late 2025, Rightway ranked 42nd in the Deloitte Fast 500 — the fastest-growing tech companies in North America.",
-      mod_rightway_period: "March 2022 — December 2025",
+      mod_rightway_ctx: "Rightway is a US HealthTech unicorn valued at $1.1B, radically changing how people receive medical care and buy medication. In late 2025, Rightway ranked 42nd in the Deloitte Fast 500 - the fastest-growing tech companies in North America.",
+      mod_rightway_period: "March 2022 - December 2025",
       mod_rightway_team: "50 people · 7 countries: Back, Front Web (React), Front Mobile (RN), QA, SDET, DevOps",
       kpi_prd_speed: "PRD speed",
       kpi_churn: "churn",
@@ -377,8 +377,8 @@
 
       mod_rostics_h2: "New Rostic's mobile app",
       mod_rostics_one: "Built a high-load Fast Food app from scratch. ~1,300 restaurants, 5M+ MAU.",
-      mod_rostics_ctx: "Built a new high-load mobile app for Rostic's from scratch — a Fast Food chain with 5M+ MAU and ~1,300 restaurants.",
-      mod_rostics_period: "June 2025 — present",
+      mod_rostics_ctx: "Built a new high-load mobile app for Rostic's from scratch - a Fast Food chain with 5M+ MAU and ~1,300 restaurants.",
+      mod_rostics_period: "June 2025 - present",
       mod_rostics_team: "15 people: Back, iOS, Android, Analyst, QA, DevOps",
       kpi_release_pred: "release predictability",
       kpi_feature_time: "feature release time",
@@ -396,14 +396,14 @@
       kpi_on_budget_time: "on budget & on time",
       kpi_incidents: "incidents",
       kpi_vtb_team: "people in VTB team",
-      mod_vtb_b1: "Delivered <b>20+ Data/BI projects</b> for Top-10 banks. Quality, timeline and budget — <b>&gt;90%</b>.",
+      mod_vtb_b1: "Delivered <b>20+ Data/BI projects</b> for Top-10 banks. Quality, timeline and budget - <b>&gt;90%</b>.",
       mod_vtb_b2: "Migrated VTB's warehouse (DDS layer), 15 people in the team. On budget and on time.",
-      mod_vtb_b3: "Defined project management standards — adopted by the company as corporate standards. <b>Incidents −18%</b>.",
+      mod_vtb_b3: "Defined project management standards - adopted by the company as corporate standards. <b>Incidents −18%</b>.",
       mod_vtb_b4: "Project portfolio growth <b>+60%</b>.",
       mod_vtb_b5: "Pre-sale: estimated effort, built proposals, defended projects in front of clients.",
 
       mod_donate_one: "Fintech service for streamers. 31% of all donations in the Russian market. TPV 7B RUB.",
-      mod_donate_ctx: "A specialized fintech service by QIWI Group for streamers and content creators. Allows authors to accept donations during live streams on Twitch, YouTube and VK Play. A direct competitor to DonationAlerts with deep QIWI ecosystem integration — the fastest and most favorable payout.",
+      mod_donate_ctx: "A specialized fintech service by QIWI Group for streamers and content creators. Allows authors to accept donations during live streams on Twitch, YouTube and VK Play. A direct competitor to DonationAlerts with deep QIWI ecosystem integration - the fastest and most favorable payout.",
       mod_donate_team: "10 people: analysts, designers, Front, Back, architect, DevOps",
       kpi_ru_share: "RU market share",
       mod_donate_b1: "Launched the donations service from scratch: <b>MAU 1.2M, uptime 99.9%</b>. Microservices, Kubernetes.",
@@ -413,7 +413,7 @@
 
       mod_qampus_one: "Corporate LMS for 3,000+ QIWI employees. Spun off as a separate B2B product.",
       mod_qampus_link: "Qampus landing ↗",
-      mod_qampus_ctx: "Corporate LMS and knowledge management system for QIWI employees. Built on the 70/20/10 continuous-learning methodology: individual growth tracks, hard/soft skills, onboarding, access to the internal library. Originally an internal tool — released as a separate B2B product with its own monetization.",
+      mod_qampus_ctx: "Corporate LMS and knowledge management system for QIWI employees. Built on the 70/20/10 continuous-learning methodology: individual growth tracks, hard/soft skills, onboarding, access to the internal library. Originally an internal tool - released as a separate B2B product with its own monetization.",
       mod_qampus_team: "12 people: Analyst, Front, Back, SDET, QA, DevOps, Designer",
       kpi_dev_util: "developer utilization",
       mod_qampus_b1: "Ran interviews with employees to surface product improvement hypotheses.",
@@ -426,7 +426,7 @@
       mod_sovcom_team: "25 people: Analyst, Front, Back, SDET, QA, DevOps, Designer",
       kpi_projects_in_portfolio: "projects in portfolio",
       mod_sovcom_b1: "Grew the account from 1 project to <b>$2M/year</b>.",
-      mod_sovcom_b2: "Delivered every project on time and on budget — <b>without exception</b>.",
+      mod_sovcom_b2: "Delivered every project on time and on budget - <b>without exception</b>.",
       mod_sovcom_b3: "Positioned the company as a reliable strategic partner for challenging projects.",
 
       mod_dmg_one: "80+ machines in MES. Russia's first spindle production line. 120+ people.",
@@ -437,7 +437,7 @@
       kpi_people_project: "people in the project",
       mod_dmg_b1: "Connected <b>80+ machines</b> to MES, built an end-to-end digitalization loop.",
       mod_dmg_b2: "Launched <b>Russia's first spindle production line</b> from scratch, budget €0.6M.",
-      mod_dmg_b3: "Transferred spindle-production experience from Poland and Germany — best practices.",
+      mod_dmg_b3: "Transferred spindle-production experience from Poland and Germany - best practices.",
       mod_dmg_b4: "OEE grew <b>from 62% to 78%</b>, downtime <b>−25%</b>."
     }
   };
@@ -491,7 +491,7 @@
     const y = document.getElementById('year');
     if(y) y.textContent = new Date().getFullYear();
 
-    // Switcher buttons — visual state
+    // Switcher buttons - visual state
     document.querySelectorAll('.lang-switch').forEach(sw => {
       sw.querySelectorAll('.lang-opt').forEach(b => {
         b.classList.toggle('active', b.getAttribute('data-lang') === currentLang);
@@ -617,7 +617,7 @@
     lightbox.setAttribute('aria-hidden','true');
     setTimeout(()=>{ lbImg.src = ''; }, 300);
   };
-  // Delegate — gallery items inside dynamic templates
+  // Delegate - gallery items inside dynamic templates
   modalBody.addEventListener('click', (e)=>{
     const item = e.target.closest('.m-gallery-item');
     if(!item) return;
@@ -702,8 +702,8 @@
 ━━━━━━━━━━━━━━━━
 ${t('tg_name')}: ${name}
 ${t('tg_phone')}: ${data.phone}
-${t('tg_contact')}: ${contact || '—'}
-${t('tg_task')}: ${message || '—'}
+${t('tg_contact')}: ${contact || '-'}
+${t('tg_task')}: ${message || '-'}
 ━━━━━━━━━━━━━━━━
 🕒 ${new Date().toLocaleString(locale)}
 🌐 ${currentLang.toUpperCase()}`;
